@@ -15,11 +15,6 @@ class ProfileController extends Controller
             }
             return true;
         }
-        // validateNumericString($id);
-        // $idInNum = (int)$id;
-        // echo $idInNum."\n"."\n";
-        // echo gettype($idInNum)."\n"."\n";
-
         if(validateNumericString($id)==true){
             $name = "Donald Trump";
             $age = "75";
